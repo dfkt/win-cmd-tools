@@ -1,0 +1,1 @@
+powershell .\file_removal.ps1
