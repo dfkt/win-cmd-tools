@@ -1,5 +1,7 @@
 @echo off
 
+title PNGGauntlet
+
 set stripper="%portable%\Stripper\Stripper"
 set pngout="%portable%\PNGout\pngout"
 set optipng="%portable%\OptiPNG\optipng"

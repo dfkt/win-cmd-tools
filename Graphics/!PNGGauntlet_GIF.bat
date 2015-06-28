@@ -1,5 +1,7 @@
 @echo off
 
+title PNGGauntlet
+
 set pngout="%portable%\PNGout\pngout"
 set deletexp="%portable%\DeleteXP\DeleteXP"
 set stripper="%portable%\Stripper\Stripper"

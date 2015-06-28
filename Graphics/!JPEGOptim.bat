@@ -1,5 +1,7 @@
 @echo off
 
+title JPEGOptim
+
 set "stripper=%portable%\Stripper\Stripper"
 set "jpegoptim=%portable%\JPEGOptim\jpegoptim"
 set "jhead=%portable%\JHead\jhead"
