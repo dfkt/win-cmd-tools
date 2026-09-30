@@ -1,6 +1,6 @@
 @echo off
 
-set "junk=fssort.ini desktop.ini *.sfv *.md5 *.m3u* thumbs.db *foo_dr.txt Album*_Small.jpg Album*_Large.jpg *.sfk *DS_Store* .Trashes audiochecker.log"
+set "junk=fssort.ini desktop.ini *.accurip *.sfv *.md5 *.m3u *.m3u8 thumbs.db *foo_dr.txt Album*_Small.jpg Album*_Large.jpg *.sfk *DS_Store* .Trashes audiochecker.log"
 set "deletexp=%portable%\DeleteXP\DeleteXP.exe"
 
 if exist ".\desktop.ini" (
