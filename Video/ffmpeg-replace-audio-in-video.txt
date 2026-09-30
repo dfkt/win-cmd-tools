@@ -1,0 +1,3 @@
+ffmpeg -i INPUT.mp4 -i AUDIO.wav -map 0:0 -map 1:0 -c:v copy -c:a aac -b:a 256k -shortest OUTPUT.mp4
+
+https://ochremusic.com/2016/07/05/replacing-video-audio-using-ffmpeg/

@@ -1,0 +1,5 @@
+https://superuser.com/questions/583393/how-to-extract-subtitle-from-video-using-ffmpeg
+
+ffmpeg -i Movie.mkv -map 0:s:0 subs1.srt
+ffmpeg -i Movie.mkv -map 0:s:1 subs2.srt
+ffmpeg -i Movie.mkv -map 0:s:2 subs3.srt
