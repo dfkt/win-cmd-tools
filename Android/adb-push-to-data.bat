@@ -17,7 +17,7 @@ if "%~nx1" == "" goto done
 
 REM push file to device
 echo Pushing %FILENAME% ...
-adb push %1 /sdcard/Android/data/%FILENAME%
+adb push -p %1 /sdcard/Android/data/%FILENAME%
 echo.
 
 REM shift arguments down by one (%2 becomes %1, %3 becomes %2, etc.)
