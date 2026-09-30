@@ -1,5 +1,7 @@
 @echo off
 
+title MP3val
+
 set mp3val="%portable%\MP3Val\mp3val.exe"
 set "logfile=D:\log.mp3val"
 

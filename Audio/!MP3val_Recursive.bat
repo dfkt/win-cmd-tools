@@ -1,12 +1,13 @@
 @echo off
 
-set mp3val="%portable%\MP3Val\mp3val.exe"
+title MP3val
+
 set "logfile=D:\log.mp3val"
 
 if exist %logfile% del /q %logfile%
 
 for /r %%i in (*.mp3 *.mp2) do (
-	%mp3val% "%%i" -f -l"%logfile%" -si -nb -t
+	"%portable%\MP3Val\mp3val.exe" "%%i" -f -l"D:\log.mp3val" -si -nb -t
 )
 
 REM http://stackoverflow.com/a/5484412/2727063

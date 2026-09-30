@@ -1,5 +1,7 @@
 @echo off
 
+title MP3Packer
+
 set "logfile=D:\mp3packer.log"
 
 if exist %logfile% del /q %logfile%

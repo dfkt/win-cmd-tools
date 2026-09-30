@@ -1,6 +1,6 @@
 @echo off
 
-for %%i in (*.flv *.mp* *.m4*) do (
+for %%i in (*.avi *.flv *.mp* *.m4*) do (
 	"%portable%\FFMPEG\ffmpeg.exe" -i "%%i" -vn -acodec copy "%%~ni.mp3"
 )
 
