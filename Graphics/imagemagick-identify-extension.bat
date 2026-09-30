@@ -1,9 +1,8 @@
 @echo off
 
-REM give image files their real extension - http://www.imagemagick.org/script/escape.php
-set identify="%programfiles%\ImageMagick\identify.exe"
+REM give image files their real extension - https://imagemagick.org/script/identify.php - http://www.imagemagick.org/script/escape.php
 for %%i in (*) do (
-	%identify% -format "%%t.%%m" "%%i" > "_identify.txt"
+	magick identify -format "%%t.%%m" "%%i" > "_identify.txt"
 	for /f %%f in (_identify.txt) do (
 		ren "%%i" "%%f"
 	)
