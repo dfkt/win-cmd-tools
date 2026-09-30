@@ -1,0 +1,9 @@
+
+! NOT RECOMMENDED - THIS WAY TAKES A *VERY* LONG TIME TO FORMAT !
+
+At the PowerShell prompt, type the following command (replacing X: with whatever drive letter you want to format), and then hit Enter:
+
+format /FS:FAT32 X:
+
+/q (quick format) doesn't work with FAT32 in CMD/Powershell
+
